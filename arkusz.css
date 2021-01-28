@@ -1,5 +1,6 @@
 *{
 	color: #eeeeee;
+	box-sizing: border-box;
 }
 body{
 	background-image: url(https://cdn.discordapp.com/attachments/804021251102212138/804043007317901352/tlellko2.1.png);
@@ -41,6 +42,7 @@ nav a{
 
 	display: inline-block;
 	padding-inline: 20pt;
+	transition: 0.6s;
 }
 nav a:hover{
 	color: #e1b803;
@@ -76,7 +78,6 @@ main{
 	background-image: url(https://cdn.discordapp.com/attachments/804021251102212138/804032223337775154/tlellko.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow: rgb(20, 20, 20);
 }
 article{
 	margin: auto;
@@ -91,7 +92,7 @@ article{
 }
 #a1{
 	font-size: 40pt;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	background-color: rgb(20, 20, 20);
 
 	padding: 30pt 30pt 60pt 30pt;
@@ -112,18 +113,26 @@ footer{
 #f-extrainfo{
 	float: left;
 	font-size: 20pt;
+	max-width: 200pt;
 	text-align: left;
 	font-family: 'Source Code Pro', monospace;
-	margin: 30pt 30pt 30pt 30pt;
+	margin: 10pt;
 }
 #f-extrainfo-1{
-	max-width: 100pt;
+	color:rgba(229, 229, 229, 0.7);
+	min-width: 150pt;
 	border-bottom: 1pt solid #eeeeee;
 }
 #f-extrainfo ul{ 
-	font-size: 10pt;
+	font-size: 12pt;
 	list-style-type: none;
 	list-style-position: inside;
 	margin: 0pt;
-	padding: 5pt 0pt 0pt 5pt;
+	padding: 2pt 0pt 1pt 3pt;
+}
+#f-extrainfo a{
+	text-decoration: none;
+}
+#f-extrainfo a:hover{
+	color: #e1b803;
 }
