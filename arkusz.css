@@ -33,6 +33,9 @@ nav{
 	float: right;
 	padding: auto;
 }
+nav li{
+	padding: 0pt 20pt 0tp 20pt;
+}
 nav a{
 	font-size: 22pt;
 	text-align: center;
